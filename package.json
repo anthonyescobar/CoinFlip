@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "703ed255-0dff-4723-9889-0b08efd64174",
+    "appType": "app",
+    "appDisplayName": "FitCoin",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "FitCoin"
+      }
+    }
+  }
+}
