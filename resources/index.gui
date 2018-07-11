@@ -4,24 +4,16 @@
     
     <symbol id="gH">
       <g>
-        <arc x="94" y="75" width="160" height="160" fill="#4cc2c4" arc-width="4" start-angle="0" sweep-angle="360" />
+        <arc x="94" y="75" width="160" height="160" fill="#4cc2c4" arc-width="8" start-angle="0" sweep-angle="360" />
         <image x="129.5" y="99.5" width="89" height="111" href="heads.png" load="sync"/>
         <animate attributeName="opacity" begin="enable" from="0" to="1" dur=".5" final="restore" />
       </g>
     </symbol>
     
-<!--     <symbol id="gT">
+    <symbol id="gT">
       <g>
-        <arc x="94" y="75" width="160" height="160" fill="#4cc2c4" arc-width="4" start-angle="0" sweep-angle="360" />
-        <image x="115" y="110" width="120" height="90" href="tails.png" load="sync"/>
-        <animate attributeName="opacity" begin="enable" from="0" to="1" dur=".5" final="restore" />
-      </g>
-    </symbol> -->
-    
-    <symbol id="gI">
-      <g>
-        <arc x="94" y="75" width="160" height="160" fill="#4cc2c4" arc-width="4" start-angle="0" sweep-angle="360" />
-        <image x="115" y="95" width="120" height="120" href="fbTails.png" load="sync"/>
+        <arc x="94" y="75" width="160" height="160" fill="#4cc2c4" arc-width="8" start-angle="0" sweep-angle="360" />
+        <image x="122" y="108" width="108" height="90" href="tails.png" load="sync"/>
         <animate attributeName="opacity" begin="enable" from="0" to="1" dur=".5" final="restore" />
       </g>
     </symbol>
@@ -36,9 +28,8 @@
   </defs>
   <svg width="100%" height="100%">
     <use id="gHeads" href="#gH" width="100%" height="100%" />
-<!--     <use id="gTails" href="#gT" width="100%" height="100%" /> -->
+    <use id="gTails" href="#gT" width="100%" height="100%" />
     <use id="gLabel" href="#gL" width="100%" height="100%" />
-    <use id="gIcon" href="#gI" width="100%" height="100%" />
   </svg>
 
   
